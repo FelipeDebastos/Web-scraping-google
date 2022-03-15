@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Netrin Web Scraping</title>
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+      <div class="bg-image"style="background-image: url('https://cdn.pixabay.com/photo/2021/05/04/09/25/background-6228126_960_720.jpg');
+        height: 100vh;">
+        {% include './includes/_navbar.html' %}
+        <div>
+         {% include 'includes/_messages.html' %}
+         {% block body %}{% endblock %}
+        </div>
+      </div>
+    </body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type = "text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type = "text/javascript"  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>  
+</html>
